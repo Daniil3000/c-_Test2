@@ -70,6 +70,7 @@ namespace Test2
 
                 }
                 else MessageBox.Show("Student with specified id does not exist");
+                txtId.Text = "";
             }
             catch (Exception exc)
             {
